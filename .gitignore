@@ -1,0 +1,19 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+
+#others
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock-json
+.env
+debug.log
+dist
+.cache
+.DS_Store
+.idea/
+temp/
+.yarn
+/opencode/config.yml 

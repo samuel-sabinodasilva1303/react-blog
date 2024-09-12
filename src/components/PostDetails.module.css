@@ -1,0 +1,10 @@
+.post_datails{
+    width: 100%;
+    text-align: center;
+}
+.post_datails_content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 20px 0;
+}

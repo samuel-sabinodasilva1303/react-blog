@@ -1,0 +1,99 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em 2em;
+    background-color: #edf3f6;
+}
+
+.brand{
+    font-size: 1.2em;
+    animation: changeColor 15s infinite;
+
+}
+@keyframes changeColor {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+    5%{
+        color: rgb(0, 162, 255); 
+    }
+    10%{
+        color: rgb(132, 0, 255);
+    }
+    15%{
+        color: rgba(0, 255, 255, 0.938);
+    }
+    20%{
+        color: rgb(115, 255, 0);
+    }
+    25%{
+        color: rgba(160, 81, 45, 0.932);
+    }
+    30% {
+        color: rgb(255, 251, 7);
+    }
+    35% {
+        color: rgba(0, 128, 0, 0.959);
+    }
+    40%{
+        color: #ff0077;
+    }
+    45%{
+        color: #a200ff;
+    }
+    50%{
+        color: #ffc400;
+    }
+    
+    55%{
+        color: #ff6600;
+    }
+    60%{
+        color: #6295b3;
+    }
+    65%{
+        color: #573652;
+    }
+    70%{
+        color: #ca7ea1;
+    }
+    75%{
+        color: #727c4f;
+    }
+    80%{
+        color: #013549;
+    }
+    85%{
+        color: #b83232;
+    }
+    90%{
+        color: #012e08;
+    }
+    95%{
+        color: #e100ff;
+    }
+    100% {
+        color: rgba(255, 0, 0, 0.863);
+    }
+}
+
+.brand span {
+    font-weight: 900;
+    text-transform: uppercase;
+    animation: changeColor 30s infinite;
+}
+.link_list{
+    display: flex;
+    list-style: none;
+    margin-right: 1em;
+}
+
+.link_list li a{
+    padding: .4em .6em;
+}
+.active{
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+  }

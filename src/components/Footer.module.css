@@ -1,0 +1,10 @@
+.footer{
+    display: flex;
+    background: #edf3f6;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 30px;
+}
+.footer_redirect{
+    font-size: 1em;
+}
